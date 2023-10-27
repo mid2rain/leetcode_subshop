@@ -9,3 +9,5 @@ A wiki to record how we become better!
 - 可以在 [这里](https://github.com/SaltyfishShop/leetcode_subshop/wiki/%E5%A4%8D%E7%9B%98-&-%E6%80%BB%E7%BB%93%E6%B1%87%E6%80%BB) 查看大家的复盘记录
 
 若有任何意见或建议，可以在 [这里](https://github.com/SaltyfishShop/leetcode_subshop/issues) 提 issue！
+
+也欢迎来 [主肆](https://github.com/SaltyfishShop) 看看~
