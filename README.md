@@ -1,7 +1,3 @@
-# 咸鱼肆力扣分肆 
-
-A wiki to record how we become better!
-
 这是咸鱼肆力扣分肆！
 
 - 你可以在 [这里](https://github.com/SaltyfishShop/leetcode_subshop/wiki/%E5%92%B8%E9%B1%BC%E8%82%86%E5%8A%9B%E6%89%A3%E5%88%86%E8%82%86) 看到我们的规则和群号
