@@ -24,7 +24,7 @@ jobs:
           git clone https://github.com/SaltyfishShop/leetcode_subshop.wiki.git
           cp leetcode_subshop.wiki/* .
           rm README.md
-          mv home.md README.md
+          mv Home.md README.md
 
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
