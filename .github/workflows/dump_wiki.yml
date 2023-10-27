@@ -21,24 +21,15 @@ jobs:
 
       - name: Fetch and Commit Markdown Files
         run: |
-          # Define the list of src values you want to update
-          src_list=("比赛记录" "复盘-&-总结汇总" "咸鱼肆力扣分肆")
-
-          # Loop through each src value and update the corresponding Markdown file
-          for src in "${src_list[@]}"; do
-            # Download the content from the source URL
-            content=$(curl -s "https://raw.githubusercontent.com/wiki/SaltyfishShop/leetcode_subshop/${src}.md")
-
-            # Commit the content to the current repository's src.md file
-            echo "$content" > "${src}.md"
-            git add "${src}.md"
-            git commit -m "Update ${src}.md" || true
-          done
+          git clone https://github.com/SaltyfishShop/leetcode_subshop.wiki.git
+          cp leetcode_subshop.wiki/* .
+          rm README.md
+          mv home.md README.md
 
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git diff-index --quiet HEAD || git commit -m "render README.md"
+          git diff-index --quiet HEAD || git commit -m "dump wiki contents"
     
       - name: push changes
         uses: ad-m/github-push-action@master
