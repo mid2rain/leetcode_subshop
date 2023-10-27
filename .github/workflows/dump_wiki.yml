@@ -3,8 +3,6 @@ name: dump wiki contents
 on:
   schedule:
     - cron: "0 * * * *"
-  watch:
-    types: started
   push:
     branches:
       - 'main'
@@ -25,6 +23,7 @@ jobs:
           cp leetcode_subshop.wiki/* .
           rm README.md
           mv Home.md README.md
+          rm -rf leetcode_subshop.wiki
 
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
