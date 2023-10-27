@@ -14,4 +14,6 @@ A wiki to record how we become better!
 
 **退群不能重新加入**
 
+QQ群：947232069
+
 祝愿各位群友早日晋升 [残酷刷题群](https://board.cruelcoding.com/rules.html)
